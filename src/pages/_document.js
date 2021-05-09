@@ -129,24 +129,12 @@ class MyDocument extends Document {
           />
           <meta name="description" content="" />
           <meta
-            name="Pacific Professional"
+            name="Job description ai"
             content="Web design software company"
           />
           {/* Chat Bots for App */}
 
-          <script
-            async
-            dangerouslySetInnerHTML={{
-              __html: `
-                 (function collectId(w, d) { 
-                  w.CollectId = "6008d3eadd5fd55abf04ac52";
-                  var h = d.head || d.getElementsByTagName("head")[0]; 
-                  var s = d.createElement("script"); s.setAttribute("type", "text/javascript");
-                  s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js");
-                  h.appendChild(s); })(window, document)
-            `,
-            }}
-          />
+         
           {/* Global site tag (gtag.js) - Google Analytics */}
 
           <script
