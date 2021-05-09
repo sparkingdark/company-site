@@ -13,7 +13,7 @@ export class Team extends Component {
             </p>
           </div>
           <div id="row">
-            {this.props.data
+            {/* {this.props.data
               ? this.props.data.map((d, i) => (
                   <div
                     key={`${d.name}-${i}`}
@@ -28,7 +28,7 @@ export class Team extends Component {
                     </figure>
                   </div>
                 ))
-              : "loading"}
+              : "loading"} */}
           </div>
         </div>
       </div>

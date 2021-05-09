@@ -5,16 +5,8 @@ export class Header extends Component {
     return (
       <header id="header ">
         <div className="homepage-hero-module">
-          <div className="video-container">
-            <video
-              muted
-              playsInline
-              src="./img/words.mp4"
-              className="fillWidth"
-              autoPlay
-              loop
-              poster={Thumbnail}
-            ></video>
+          <div className="background-container">
+           
             <div className="poster hidden"></div>
             <div className="row">
               <div className="col-md-8 col-md-offset-2 intro-text">

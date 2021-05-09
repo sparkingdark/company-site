@@ -35,7 +35,7 @@ function App({ landingPageData }) {
     <Fragment>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Pacific Professional</title>
+        <title>Job description AI</title>
       </Head>
       <Navigation />
       <Header data={landingPageData.Header} />

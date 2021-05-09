@@ -651,27 +651,27 @@ svg:not(:root) {
   position: relative;
 }
 
-.no-video .video-container video,
-.touch .video-container video {
+.no-video .background-container video,
+.touch .background-container video {
   display: none;
 }
 
-.no-video .video-container .poster,
-.touch .video-container .poster {
+.no-video .background-container .poster,
+.touch .background-container .poster {
   display: block !important;
 }
 
-.video-container {
+.background-container {
   position: relative;
   bottom: 0%;
   left: 0%;
   height: 100%;
   width: 100%;
   overflow: hidden;
-  background: #000;
+  background: rgb(238, 201, 201);
 }
 
-.video-container .poster img {
+.background-container .poster img {
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
   width: 100%;
@@ -679,20 +679,20 @@ svg:not(:root) {
   position: absolute;
 }
 
-.video-container .filter {
+.bckground-container .filter {
   z-index: 100;
   position: absolute;
   background: rgba(230, 217, 217, 0.4);
   width: 100%;
 }
 
-.video-container video {
+.background-container video {
   position: absolute;
   z-index: 0;
   bottom: 0;
 }
 
-.video-container video.fillWidth {
+.background-container video.fillWidth {
   width: 100%;
   object-fit: cover;
   height: 100%;
